@@ -9,7 +9,7 @@ generate() {
     --pkg-manager=apt \
     --install python3-h5py python3-pip hdf5-tools \
     --run "mkdir -p /opt/mpidemos" \
-    --copy test2.py /opt/mpidemos \
+    --copy testme2.py /opt/mpidemos \
     --run "chmod a+rX -R /opt/mpidemos" \
     --run "python3 -m pip install pynwb" \
     --user=nwb

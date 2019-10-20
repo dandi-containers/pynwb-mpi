@@ -1,6 +1,6 @@
 Bootstrap: docker
 #From: debian:unstable
-From: neurodebian:testing
+From: debian:testing
 #From: ubuntu:cosmic
 
 %help
@@ -13,4 +13,5 @@ Welcome to the DANDI PyNWB MPI image.
         python3-h5py python3-pip hdf5-tools && \
     python3 -m pip install pynwb &&
     rm -rf /var/lib/apt/lists/*
+
 
